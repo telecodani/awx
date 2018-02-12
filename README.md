@@ -1,4 +1,2 @@
 # test
-Initial test
-Fase 1
-Fase 2
+Script desatendido para desplegar Ansible AWX en Centos7 64b (7.4.1708)
