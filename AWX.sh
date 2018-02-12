@@ -8,5 +8,3 @@ cd /
 git clone https://github.com/ansible/awx
 cd /awx/installer
 ansible-playbook -i inventory install.yml
-#opcional, para ver los procesos en background que han quedado pendientes en Docker una vez finalizada la instalación
-#docker logs -f awx_task
