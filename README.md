@@ -4,7 +4,7 @@ Unattended script to deploy the last stable version of Ansible AWX on Docker ima
 
 ## Getting Started
 
-Following the instructions you will get you a copy of the AWX project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the AWX project up and running on your local machine.
 
 ### Prerequisites
 
@@ -29,6 +29,7 @@ If you want to deploy a specific version of AWX, you can change the Github repo 
 ```
 git clone https://github.com/ansible/awx
 ```
+
 ## Running the tests
 
 Once the script end, you can check the remaining process that still running on the backend finishing the installation.
@@ -48,7 +49,7 @@ Then you can access to http:/localhost or http://yourserverip, by default the ac
 
 ## Deployment
 
-Unattended script to deploy the last stable version of Ansible AWX on Docker images, or the version what do you specify on the script using the oficial AWX Github repositories.
+Unattended script to deploy the last stable version of Ansible AWX on Docker images, or the version what do you specify on the script using the oficial AWX Github repositories mentioned on the Instruction paragraph.
 
 ## Contributing
 
