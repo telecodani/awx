@@ -39,13 +39,12 @@ docker logs -f awx_task
 ```
 Wait until you notice that the output will apears like this on:
 
-...
+```
 'application/json', 'utf-8') kwargs:{})
 2018-02-12 17:34:24,035 DEBUG    awx.main.scheduler Running Tower task manager.
 2018-02-12 17:34:24,051 DEBUG    awx.main.scheduler Starting Scheduler
-....
-
-Then you can access to http:/localhost or http://yourserviceip, by default the access user is admin and password is password. The service by default will be deployed on the port 80 (on the next release I'll implement a change on the script where you will be able to change the port)
+```
+Then you'll be able to access to http://localhost or http://yourserviceip. By default the access user is admin and password is password. The service by default will be deployed on the port 80 (on the next release I'll implement a change on the script where you will be able to change the port)
 
 ## Deployment
 
