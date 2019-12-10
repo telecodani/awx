@@ -1,5 +1,6 @@
 #!/bin/sh
-yum -y update
+#Uncomment the next line to update the system.
+#yum -y update
 yum -y install epel-release
 yum -y install git gettext ansible docker nodejs npm gcc-c++ bzip2 python-docker-py
 systemctl start docker
