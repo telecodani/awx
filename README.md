@@ -1,14 +1,14 @@
 # AWX
 
-Unattended script to deploy the last stable version of Ansible AWX on Docker images.
+Unattended script to deploy the last Ansible AWX stable version on Docker images.
 
 ## Getting Started
 
-Following this instructions will get you a copy of the AWX project up and running on your local machine.
+Follow the instructions and get a copy of the AWX project up and running on a local machine.
 
 ### Prerequisites
 
-Operative system: CentOS Linux release 7.4.1708, 64b or above.
+Operative system: CentOS Linux release 7.4.1708, 64b or above. All the prerequisites will be installed by the awx script.
 
 ### Installation
 
@@ -19,19 +19,19 @@ git clone https://github.com/telecodani/AWX
 cd AWX
 sh AWX.sh
 ```
-If you want to deploy a specific version of AWX, you can change the Github repo on the line 8 with the specific AWX version.
+If you want to deploy a specific version of Awx, you can change the 9th line of the awx script with a specified version of Awx. You will need to check the awx source first.
 ```
-(line 8) git clone https://github.com/ansible/awx
+(line 9) git clone https://github.com/ansible/awx
 ```
 
 ## Running the tests
 
-Once the script ended, you will be able to check the remaining process that are still running on the backend.
+You will be able to lunch some tests to check the background remaining tasks but once the script will end.
 
 ```
 docker logs -f awx_task
 ```
-Wait until you'll notice that the output will look like this one:
+Wait until you'll notice that the output will look like this entries:
 
 ```
 'application/json', 'utf-8') kwargs:{})
@@ -40,9 +40,9 @@ Wait until you'll notice that the output will look like this one:
 ```
 Then you'll be able to access to http://localhost or http://yourserviceip. By default the access user is admin and password is password. The service will be deployed on the port 80 by default (on the next release I'll implement a change on the script where you will be able to change the port).
 
-## Deployment
+## Future deployments
 
-Unattended script to deploy the last stable version of Ansible AWX on Docker images, and manualy you can change the version of the AWX on the script using the oficial AWX Github repositories mentioned on the Instruction paragraph.
+-- Under construction --
 
 ## Contributing
 
@@ -62,4 +62,4 @@ Unattended script to deploy the last stable version of Ansible AWX on Docker ima
 
 ## Acknowledgments
 
-* DevOps
+* DevOps culture.
