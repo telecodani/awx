@@ -32,7 +32,7 @@ sh AWX_8.sh
 If you want to deploy a specific version of AWX, you can change one line of the AWX script with a specified version of AWX. You will have to check the AWX source first. Beware, the scripts were adapted to deploy the last stable version of AWX.
 ```
 (line 29 on Cento 7 script) git clone https://github.com/ansible/awx
-(line 34 on Cento 7 script) git clone https://github.com/ansible/awx
+(line 34 on Cento 8 script) git clone https://github.com/ansible/awx
 ```
 
 ## Running the tests and checking the logs
